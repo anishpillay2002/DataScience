@@ -6,7 +6,7 @@ dataset = dataset[2:3]
 
 # Splitting the dataset into the Training set and Test set
 install.packages('e1071')
-# library(caTools)
+library(e1071)
 # set.seed(123)
 # split = sample.split(dataset$Salary, SplitRatio = 2/3)
 # training_set = subset(dataset, split == TRUE)
